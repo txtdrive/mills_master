@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 100%
+	height:100%;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%
+	height:100%;
+	-webkit-text-size-adjust: 100%;
+  	font-family: 'Kiwi Maru', serif;
+}
+
+main#wrapper{
+	max-width: 70rem;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+
+header{
+	width: 70rem;
+	height: 7rem;
+	line-height: 6rem;
+	margin: 0 auto;
+	position: fixed;
+	text-align: left;
+	background-color: #93100f;
+	font-family: 'Reggae One', cursive;
+}
+
+footer{
+	width: 70rem;
+	height: 5rem;
+	line-height: 5rem;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	text-align: left;
+	background-color: #93100f;
+	font-family: 'Reggae One', cursive;
+	color: #fff;
+}
+
+address{
+	max-width: 70rem;
+	font-size: 1rem;
+	text-align: right;
+	margin-right: 2rem;
+	line-height: 1.5;
+}
+
+h1{
+	max-width: 70rem;
+	font-size: 3rem;
+	color: #fff;
+	display: inline;
+}
+
+h2{
+	color: #93100f;
+}
+
+span{
+	color: #93100f;
+	font-weight: bold;
+}
+
+em{
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+nav{
+	width: 100%;  /*この値は任意*/
+}
+
+nav li{
+	margin-bottom: 1rem; 
+	font-size: 2rem;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #000;
+}
+
+section{
+	font-size: 1.5rem;
+	line-height: 1.5;
+	width: 100%;　/*この値は任意*/
+}
+
+h2 img{
+	height: 6.5rem;
+	width: auto;
+}
+
+.section a{
+	color: #93100f;
+	text-decoration: none;
+	border-bottom: 1px dotted #93100f;
+}
+
+/*
+.section{
+	margin: auto 4rem auto 4rem;
+}
+*/
+
+.s1 p{
+	text-align: right;
+	line-height: 2;
+	color: #93100f;
+}
+
+.s1 h2{
+	color: #93100f;
+}
+
+.s4 ul{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#items dt{
+	height: auto;
+	clear: both;
+}
+
+#items dt img{
+	width: 40%;
+	float: left;
+	margin-bottom: 2rem;
+	border-radius: 1rem;
+}
+
+#items dd{
+	text-align: right;
+}
+
+#takeout img{
+	width: 45%;
+}
+
+
+#shoplist dt{
+	float: left;
+}
+
+#shoplist dd{
+	text-align: right;
+	border-bottom: 1px dotted #000;
+}
+
+#product dt{
+	display: list-item;
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/q_auto:eco/v1628477063/mills/accept_64_8f100f.png");
+	list-style-position: inside;
+	color: #93100f;
+	font-weight: bold;
+}
+
+#product dd{
+	padding-left: 4rem;
+}
+
+#millsworks dt{
+	display: list-item;
+	list-style-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/v1628477062/mills/user_full_8.png");
+	list-style-position: inside;
+	color: #93100f;
+	font-weight: bold;
+}
+
+#millsworks dd{
+	padding-left: 4rem;
+}
+
+.fp-slidesNav{
+    text-align: right;
+}
+
+.fp-slidesNav ul li a span{
+    background:#fff;
+}
+
+.slider{
+    margin: 100px auto;
+    width: 80%;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.center{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textleft{
+	text-align: left;
+}
+
+.textright{
+	text-align: right;
+}
+
+.half{
+	width: 40%;
+	height: auto;
+}
+
+.padding{
+	padding:1rem;
+}
+
+.padding2{
+	padding: 2rem;
+}
+
+.margin{
+	margin: 1rem;
+}
+
+.margin2{
+	margin: 2rem;
+}
+
+.border{
+	border:2px solid #93100f;
+	border-radius: 5rem;
+}
+
+.dotted{
+	border: 2px dashed #93100f;
+	border-radius: 5rem;
+}
+
+.underline{
+	border-bottom: 2px dashed #93100f;
+	padding-bottom: 2px;
+	margin-bottom: 2rem;
+}
+
+.clear{
+	clear: both;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+@media only screen and (max-width: 765px){
+html {
+  font-size: calc(100vw / 60);
+}
+
+header{
+	height: 8rem;
+	line-height: 8rem;
+}
+
+address{
+	margin-right: 12rem;
+}
+
+}
