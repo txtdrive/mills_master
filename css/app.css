@@ -39,8 +39,8 @@ header{
 
 footer{
 	width: 70rem;
-	height: 5rem;
-	line-height: 5rem;
+	height: 7rem;
+	line-height: 7rem;
 	margin: 0 auto;
 	position: fixed;
 	bottom: 0;
@@ -48,6 +48,9 @@ footer{
 	background-color: #93100f;
 	font-family: 'Reggae One', cursive;
 	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 address{
@@ -115,11 +118,16 @@ h2 img{
 .s1 p{
 	text-align: right;
 	line-height: 2;
-	color: #93100f;
+	color: #000;
+	font-weight: bold;
 }
 
 .s1 h2{
 	color: #93100f;
+}
+
+.s3 ul li{
+	list-style-type: none;
 }
 
 .s4 ul{
@@ -194,11 +202,10 @@ h2 img{
 }
 
 .gauss{
-    background-color: rgba( 255, 255, 255, 0.4);
-    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/v1630901691/mills/0623_014_Fotor_Fotor_Fotor.jpg");
+    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/v1630910093/mills/s1pic.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right 50%;
+    background-position: 0% 80%;
 }
 
 .left{
