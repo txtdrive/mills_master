@@ -133,6 +133,10 @@ h2 img{
 	margin-bottom: 2rem;
 }
 
+.s4 ul li{
+	list-style-type: none;
+}
+
 #items dt{
 	height: auto;
 	clear: both;
