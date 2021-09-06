@@ -112,12 +112,6 @@ h2 img{
 	border-bottom: 1px dotted #93100f;
 }
 
-/*
-.section{
-	margin: auto 4rem auto 4rem;
-}
-*/
-
 .s1 p{
 	text-align: right;
 	line-height: 2;
@@ -199,18 +193,12 @@ h2 img{
     background:#fff;
 }
 
-.slider{
-    margin: 100px auto;
-    width: 80%;
-}
-.slider img{
-    height: auto;
-    width: 100%;
-}
-/*slick setting*/
-.slick-prev:before,
-.slick-next:before {
-    color: #000;
+.gauss{
+    background-color: rgba( 255, 255, 255, 0.4);
+    background-image: url("https://res.cloudinary.com/de6lgx4lf/image/upload/v1630901691/mills/0623_014_Fotor_Fotor_Fotor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 50%;
 }
 
 .left{
